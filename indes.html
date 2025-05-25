@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrafficAI - Smart Violation Detection</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">Traffic<span>Shield</span></a>
+      <div class="nav-toggle" id="navToggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#scope" class="nav-link">Scope</a></li>
+        <li><a href="#technology" class="nav-link">Technology</a></li>
+        <li><a href="#objectives" class="nav-link">Objectives</a></li>
+        <li><a href="#timeline" class="nav-link">Timeline</a></li>
+        <li><a href="#team" class="nav-link">Team</a></li>
+        <li><a href="#" class="nav-link cta-button">Demo</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title" data-aos="fade-up">Revolutionizing Traffic Safety with AI</h1>
+        <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">
+          Our intelligent system detects and reports traffic violations in real-time, making roads safer for everyone.
+        </p>
+        <div class="hero-buttons" data-aos="fade-up" data-aos-delay="200">
+          <a href="#scope" class="btn primary-btn">Learn More</a>
+          <a href="#technology" class="btn secondary-btn">Our Tech</a>
+        </div>
+      </div>
+      <div class="hero-image" data-aos="fade-left" data-aos-delay="300">
+        <img src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="AI Traffic Monitoring" class="hero-img">
+        <div class="floating-elements">
+          <div class="floating-card card-1">
+            <i class="fas fa-car-crash"></i>
+            <span>Violation Detection</span>
+          </div>
+          <div class="floating-card card-2">
+            <i class="fas fa-bolt"></i>
+            <span>Real-time Alerts</span>
+          </div>
+          <div class="floating-card card-3">
+            <i class="fas fa-chart-line"></i>
+            <span>Analytics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wave-divider">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Project Scope -->
+  <section class="scope-section" id="scope">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Project Scope</h2>
+        <p class="section-subtitle">Transforming traffic monitoring with computer vision</p>
+      </div>
+      <div class="scope-grid">
+        <div class="scope-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="card-icon">
+            <i class="fas fa-traffic-light"></i>
+          </div>
+          <h3>Signal Violations</h3>
+          <p>Detect red light jumping and signal disobedience with 95% accuracy.</p>
+        </div>
+        <div class="scope-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="card-icon">
+            <i class="fas fa-tachometer-alt"></i>
+          </div>
+          <h3>Speed Monitoring</h3>
+          <p>Identify overspeeding vehicles using advanced tracking algorithms.</p>
+        </div>
+        <div class="scope-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="card-icon">
+            <i class="fas fa-road"></i>
+          </div>
+          <h3>Lane Discipline</h3>
+          <p>Detect illegal lane changes and wrong-way driving automatically.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technology Stack -->
+  <section class="tech-section" id="technology">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Technology Stack</h2>
+        <p class="section-subtitle">Cutting-edge tools powering our solution</p>
+      </div>
+      <div class="tech-tabs">
+        <div class="tab-buttons" data-aos="fade-up">
+          <button class="tab-btn active" data-tab="ai">AI/ML</button>
+          <button class="tab-btn" data-tab="backend">Backend</button>
+          <button class="tab-btn" data-tab="frontend">Frontend</button>
+          <button class="tab-btn" data-tab="database">Database</button>
+        </div>
+        <div class="tab-content">
+          <div class="tab-pane active" id="ai" data-aos="fade-up" data-aos-delay="100">
+            <div class="tech-item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="Python">
+              <span>Python</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/OpenCV_Logo_with_text_svg_version.svg/1200px-OpenCV_Logo_with_text_svg_version.svg.png" alt="OpenCV">
+              <span>OpenCV</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/TensorFlow_logo.svg/957px-TensorFlow_logo.svg.png" alt="TensorFlow">
+              <span>TensorFlow</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/1200px-Tensorflow_logo.svg.png" alt="YOLO">
+              <span>YOLOv5</span>
+            </div>
+          </div>
+          <div class="tab-pane" id="backend" data-aos="fade-up" data-aos-delay="100">
+            <div class="tech-item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1200px-Flask_logo.svg.png" alt="Flask">
+              <span>Flask</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Django_logo.svg/1200px-Django_logo.svg.png" alt="Django">
+              <span>Django</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" alt="Node.js">
+              <span>Node.js</span>
+            </div>
+          </div>
+          <div class="tab-pane" id="frontend" data-aos="fade-up" data-aos-delay="100">
+            <div class="tech-item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="React">
+              <span>React</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/React_Native_Logo.png/1200px-React_Native_Logo.png" alt="React Native">
+              <span>React Native</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png" alt="Vue.js">
+              <span>Vue.js</span>
+            </div>
+          </div>
+          <div class="tab-pane" id="database" data-aos="fade-up" data-aos-delay="100">
+            <div class="tech-item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sqlite-square-icon.svg/1200px-Sqlite-square-icon.svg.png" alt="SQLite">
+              <span>SQLite</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" alt="PostgreSQL">
+              <span>PostgreSQL</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/MongoDB_Logo.svg/1200px-MongoDB_Logo.svg.png" alt="MongoDB">
+              <span>MongoDB</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Objectives -->
+  <section class="objectives-section" id="objectives">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Our Objectives</h2>
+        <p class="section-subtitle">Key goals driving our innovation</p>
+      </div>
+      <div class="objectives-container">
+        <div class="objectives-image" data-aos="fade-right">
+          <img src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80" alt="Traffic Monitoring">
+        </div>
+        <div class="objectives-list" data-aos="fade-left">
+          <div class="objective-item">
+            <div class="objective-number">01</div>
+            <div class="objective-content">
+              <h3>Real-time Detection</h3>
+              <p>Identify traffic violations as they occur with minimal latency.</p>
+            </div>
+          </div>
+          <div class="objective-item">
+            <div class="objective-number">02</div>
+            <div class="objective-content">
+              <h3>Automated Reporting</h3>
+              <p>Generate comprehensive violation reports for authorities.</p>
+            </div>
+          </div>
+          <div class="objective-item">
+            <div class="objective-number">03</div>
+            <div class="objective-content">
+              <h3>Data Analytics</h3>
+              <p>Provide insights into traffic patterns and violation hotspots.</p>
+            </div>
+          </div>
+          <div class="objective-item">
+            <div class="objective-number">04</div>
+            <div class="objective-content">
+              <h3>Integration Ready</h3>
+              <p>Seamlessly connect with existing traffic management systems.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline -->
+  <section class="timeline-section" id="timeline">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Project Timeline</h2>
+        <p class="section-subtitle">Our roadmap to success</p>
+      </div>
+      <div class="timeline" data-aos="fade-up">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Week 1</div>
+          <div class="timeline-content">
+            <h3>Requirement Analysis</h3>
+            <p>Gather requirements and define project scope with stakeholders.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Week 2-3</div>
+          <div class="timeline-content">
+            <h3>Model Development</h3>
+            <p>Train and optimize computer vision models for violation detection.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Week 4-5</div>
+          <div class="timeline-content">
+            <h3>System Integration</h3>
+            <p>Develop backend APIs and integrate with frontend applications.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Week 6-7</div>
+          <div class="timeline-content">
+            <h3>Testing & Validation</h3>
+            <p>Conduct rigorous testing and performance optimization.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Week 8</div>
+          <div class="timeline-content">
+            <h3>Deployment</h3>
+            <p>Launch pilot program and prepare for full-scale implementation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="team-section" id="team">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Meet Our Team</h2>
+        <p class="section-subtitle">The brilliant minds behind the project</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="team-img">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Ayesha Khan">
+            <div class="social-links">
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <h3>Ayesha Khan</h3>
+          <p>AI Developer</p>
+          <div class="skills">
+            <span>Python</span>
+            <span>OpenCV</span>
+            <span>TensorFlow</span>
+          </div>
+        </div>
+        <div class="team-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="team-img">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Rohan Patel">
+            <div class="social-links">
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <h3>Rohan Patel</h3>
+          <p>Backend Developer</p>
+          <div class="skills">
+            <span>Node.js</span>
+            <span>Django</span>
+            <span>Flask</span>
+          </div>
+        </div>
+        <div class="team-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="team-img">
+            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Neha Mehra">
+            <div class="social-links">
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <h3>Neha Mehra</h3>
+          <p>UI/UX Designer</p>
+          <div class="skills">
+            <span>Figma</span>
+            <span>React</span>
+            <span>CSS3</span>
+          </div>
+        </div>
+        <div class="team-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="team-img">
+            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Sameer Joshi">
+            <div class="social-links">
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <h3>Sameer Joshi</h3>
+          <p>Project Coordinator</p>
+          <div class="skills">
+            <span>Agile</span>
+            <span>Scrum</span>
+            <span>PM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content" data-aos="fade-up">
+        <h2>Ready to Transform Traffic Monitoring?</h2>
+        <p>Contact us to learn more about our solution or request a demo.</p>
+        <a href="#" class="btn primary-btn">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="#" class="logo">Traffic<span>AI</span></a>
+          <p>Innovative solutions for smarter, safer cities.</p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#scope">Scope</a></li>
+            <li><a href="#technology">Technology</a></li>
+            <li><a href="#objectives">Objectives</a></li>
+            <li><a href="#team">Team</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Technology</h3>
+          <ul>
+            <li><a href="#">Computer Vision</a></li>
+            <li><a href="#">AI/ML</a></li>
+            <li><a href="#">Real-time Processing</a></li>
+            <li><a href="#">Cloud Integration</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Contact</h3>
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> 123 Tech Park, Bangalore, India</li>
+            <li><i class="fas fa-phone"></i> +91 9876543210</li>
+            <li><i class="fas fa-envelope"></i> info@trafficai.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 TrafficAI. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
